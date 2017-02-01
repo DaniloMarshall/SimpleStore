@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768566C91E41680C0036B39F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768566C81E41680C0036B39F /* AppDelegate.swift */; };
+		768566CB1E41680C0036B39F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768566CA1E41680C0036B39F /* ViewController.swift */; };
+		768566CE1E41680C0036B39F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768566CC1E41680C0036B39F /* Main.storyboard */; };
+		768566D01E41680C0036B39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768566CF1E41680C0036B39F /* Assets.xcassets */; };
+		768566D31E41680C0036B39F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768566D11E41680C0036B39F /* LaunchScreen.storyboard */; };
+		768566DE1E41680C0036B39F /* SimpleStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768566DD1E41680C0036B39F /* SimpleStoreTests.swift */; };
+		768566E91E41680C0036B39F /* SimpleStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768566E81E41680C0036B39F /* SimpleStoreUITests.swift */; };
+		CE2C36B15A4C20C52D0C57F6 /* Pods_SimpleStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C8547BB107FCD5751160B4 /* Pods_SimpleStore.framework */; };
+		E06CF9AD4D156F1604F357EB /* Pods_SimpleStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D8675DAE65A2DE0ADB49C7 /* Pods_SimpleStoreTests.framework */; };
+		EC9BADD4EC5CE02115AFDB81 /* Pods_SimpleStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A8E7F3008AA6CA03CF56BA /* Pods_SimpleStoreUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		768566DA1E41680C0036B39F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768566BD1E41680C0036B39F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768566C41E41680C0036B39F;
+			remoteInfo = SimpleStore;
+		};
+		768566E51E41680C0036B39F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768566BD1E41680C0036B39F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768566C41E41680C0036B39F;
+			remoteInfo = SimpleStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		370BF10458C7A25BA765EA1D /* Pods-SimpleStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStoreUITests/Pods-SimpleStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69BB0510EEBD446361694BAC /* Pods-SimpleStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStoreTests/Pods-SimpleStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7114E8F3ADE0C627987F96B5 /* Pods-SimpleStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStore/Pods-SimpleStore.debug.xcconfig"; sourceTree = "<group>"; };
+		71D8675DAE65A2DE0ADB49C7 /* Pods_SimpleStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768566C51E41680C0036B39F /* SimpleStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		768566C81E41680C0036B39F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		768566CA1E41680C0036B39F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		768566CD1E41680C0036B39F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		768566CF1E41680C0036B39F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		768566D21E41680C0036B39F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		768566D41E41680C0036B39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768566D91E41680C0036B39F /* SimpleStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768566DD1E41680C0036B39F /* SimpleStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStoreTests.swift; sourceTree = "<group>"; };
+		768566DF1E41680C0036B39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768566E41E41680C0036B39F /* SimpleStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768566E81E41680C0036B39F /* SimpleStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStoreUITests.swift; sourceTree = "<group>"; };
+		768566EA1E41680C0036B39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8580E0D5A78C58F81809B9C6 /* Pods-SimpleStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStoreTests/Pods-SimpleStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2C8547BB107FCD5751160B4 /* Pods_SimpleStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E123DA75A802FA2474C21A5A /* Pods-SimpleStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStoreUITests/Pods-SimpleStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9A8E7F3008AA6CA03CF56BA /* Pods_SimpleStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC68DDE1258D61C35A9173E1 /* Pods-SimpleStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStore/Pods-SimpleStore.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768566C21E41680C0036B39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2C36B15A4C20C52D0C57F6 /* Pods_SimpleStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768566D61E41680C0036B39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06CF9AD4D156F1604F357EB /* Pods_SimpleStoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768566E11E41680C0036B39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9BADD4EC5CE02115AFDB81 /* Pods_SimpleStoreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29084F64EC290B19EB73B480 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7114E8F3ADE0C627987F96B5 /* Pods-SimpleStore.debug.xcconfig */,
+				FC68DDE1258D61C35A9173E1 /* Pods-SimpleStore.release.xcconfig */,
+				69BB0510EEBD446361694BAC /* Pods-SimpleStoreTests.debug.xcconfig */,
+				8580E0D5A78C58F81809B9C6 /* Pods-SimpleStoreTests.release.xcconfig */,
+				370BF10458C7A25BA765EA1D /* Pods-SimpleStoreUITests.debug.xcconfig */,
+				E123DA75A802FA2474C21A5A /* Pods-SimpleStoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		768566BC1E41680C0036B39F = {
+			isa = PBXGroup;
+			children = (
+				768566C71E41680C0036B39F /* SimpleStore */,
+				768566DC1E41680C0036B39F /* SimpleStoreTests */,
+				768566E71E41680C0036B39F /* SimpleStoreUITests */,
+				768566C61E41680C0036B39F /* Products */,
+				29084F64EC290B19EB73B480 /* Pods */,
+				FEF0AC72B010A771E35BED88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		768566C61E41680C0036B39F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768566C51E41680C0036B39F /* SimpleStore.app */,
+				768566D91E41680C0036B39F /* SimpleStoreTests.xctest */,
+				768566E41E41680C0036B39F /* SimpleStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768566C71E41680C0036B39F /* SimpleStore */ = {
+			isa = PBXGroup;
+			children = (
+				768566C81E41680C0036B39F /* AppDelegate.swift */,
+				768566CA1E41680C0036B39F /* ViewController.swift */,
+				768566CC1E41680C0036B39F /* Main.storyboard */,
+				768566CF1E41680C0036B39F /* Assets.xcassets */,
+				768566D11E41680C0036B39F /* LaunchScreen.storyboard */,
+				768566D41E41680C0036B39F /* Info.plist */,
+			);
+			path = SimpleStore;
+			sourceTree = "<group>";
+		};
+		768566DC1E41680C0036B39F /* SimpleStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				768566DD1E41680C0036B39F /* SimpleStoreTests.swift */,
+				768566DF1E41680C0036B39F /* Info.plist */,
+			);
+			path = SimpleStoreTests;
+			sourceTree = "<group>";
+		};
+		768566E71E41680C0036B39F /* SimpleStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				768566E81E41680C0036B39F /* SimpleStoreUITests.swift */,
+				768566EA1E41680C0036B39F /* Info.plist */,
+			);
+			path = SimpleStoreUITests;
+			sourceTree = "<group>";
+		};
+		FEF0AC72B010A771E35BED88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C8547BB107FCD5751160B4 /* Pods_SimpleStore.framework */,
+				71D8675DAE65A2DE0ADB49C7 /* Pods_SimpleStoreTests.framework */,
+				F9A8E7F3008AA6CA03CF56BA /* Pods_SimpleStoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768566C41E41680C0036B39F /* SimpleStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768566ED1E41680C0036B39F /* Build configuration list for PBXNativeTarget "SimpleStore" */;
+			buildPhases = (
+				5E4FC56A48E53F6250E859C4 /* [CP] Check Pods Manifest.lock */,
+				768566C11E41680C0036B39F /* Sources */,
+				768566C21E41680C0036B39F /* Frameworks */,
+				768566C31E41680C0036B39F /* Resources */,
+				C5F85501647554DB1607220D /* [CP] Embed Pods Frameworks */,
+				6717B72A5CB5241259A0D8F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleStore;
+			productName = SimpleStore;
+			productReference = 768566C51E41680C0036B39F /* SimpleStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		768566D81E41680C0036B39F /* SimpleStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768566F01E41680C0036B39F /* Build configuration list for PBXNativeTarget "SimpleStoreTests" */;
+			buildPhases = (
+				B7CB0C8C06F5D71551A01320 /* [CP] Check Pods Manifest.lock */,
+				768566D51E41680C0036B39F /* Sources */,
+				768566D61E41680C0036B39F /* Frameworks */,
+				768566D71E41680C0036B39F /* Resources */,
+				53CEE9A7243D3291F6FFA36F /* [CP] Embed Pods Frameworks */,
+				588FD576E1DFF18343F4E0E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768566DB1E41680C0036B39F /* PBXTargetDependency */,
+			);
+			name = SimpleStoreTests;
+			productName = SimpleStoreTests;
+			productReference = 768566D91E41680C0036B39F /* SimpleStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		768566E31E41680C0036B39F /* SimpleStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768566F31E41680C0036B39F /* Build configuration list for PBXNativeTarget "SimpleStoreUITests" */;
+			buildPhases = (
+				DF722DF4AE2ABA98AC9E4165 /* [CP] Check Pods Manifest.lock */,
+				768566E01E41680C0036B39F /* Sources */,
+				768566E11E41680C0036B39F /* Frameworks */,
+				768566E21E41680C0036B39F /* Resources */,
+				3941376805B18A0ED3E537D7 /* [CP] Embed Pods Frameworks */,
+				705F66652C9C42FE219C928A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768566E61E41680C0036B39F /* PBXTargetDependency */,
+			);
+			name = SimpleStoreUITests;
+			productName = SimpleStoreUITests;
+			productReference = 768566E41E41680C0036B39F /* SimpleStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768566BD1E41680C0036B39F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = danilomarshall;
+				TargetAttributes = {
+					768566C41E41680C0036B39F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2YVM85P4VJ;
+						ProvisioningStyle = Automatic;
+					};
+					768566D81E41680C0036B39F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2YVM85P4VJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 768566C41E41680C0036B39F;
+					};
+					768566E31E41680C0036B39F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2YVM85P4VJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 768566C41E41680C0036B39F;
+					};
+				};
+			};
+			buildConfigurationList = 768566C01E41680C0036B39F /* Build configuration list for PBXProject "SimpleStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768566BC1E41680C0036B39F;
+			productRefGroup = 768566C61E41680C0036B39F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768566C41E41680C0036B39F /* SimpleStore */,
+				768566D81E41680C0036B39F /* SimpleStoreTests */,
+				768566E31E41680C0036B39F /* SimpleStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768566C31E41680C0036B39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768566D31E41680C0036B39F /* LaunchScreen.storyboard in Resources */,
+				768566D01E41680C0036B39F /* Assets.xcassets in Resources */,
+				768566CE1E41680C0036B39F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768566D71E41680C0036B39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768566E21E41680C0036B39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3941376805B18A0ED3E537D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleStoreUITests/Pods-SimpleStoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CEE9A7243D3291F6FFA36F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleStoreTests/Pods-SimpleStoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		588FD576E1DFF18343F4E0E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleStoreTests/Pods-SimpleStoreTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E4FC56A48E53F6250E859C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6717B72A5CB5241259A0D8F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleStore/Pods-SimpleStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		705F66652C9C42FE219C928A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleStoreUITests/Pods-SimpleStoreUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7CB0C8C06F5D71551A01320 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F85501647554DB1607220D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleStore/Pods-SimpleStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF722DF4AE2ABA98AC9E4165 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768566C11E41680C0036B39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768566CB1E41680C0036B39F /* ViewController.swift in Sources */,
+				768566C91E41680C0036B39F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768566D51E41680C0036B39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768566DE1E41680C0036B39F /* SimpleStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768566E01E41680C0036B39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768566E91E41680C0036B39F /* SimpleStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		768566DB1E41680C0036B39F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768566C41E41680C0036B39F /* SimpleStore */;
+			targetProxy = 768566DA1E41680C0036B39F /* PBXContainerItemProxy */;
+		};
+		768566E61E41680C0036B39F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768566C41E41680C0036B39F /* SimpleStore */;
+			targetProxy = 768566E51E41680C0036B39F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		768566CC1E41680C0036B39F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768566CD1E41680C0036B39F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		768566D11E41680C0036B39F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768566D21E41680C0036B39F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		768566EB1E41680C0036B39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		768566EC1E41680C0036B39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768566EE1E41680C0036B39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7114E8F3ADE0C627987F96B5 /* Pods-SimpleStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2YVM85P4VJ;
+				INFOPLIST_FILE = SimpleStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.danilomarshall.SimpleStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		768566EF1E41680C0036B39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC68DDE1258D61C35A9173E1 /* Pods-SimpleStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2YVM85P4VJ;
+				INFOPLIST_FILE = SimpleStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.danilomarshall.SimpleStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		768566F11E41680C0036B39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BB0510EEBD446361694BAC /* Pods-SimpleStoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2YVM85P4VJ;
+				INFOPLIST_FILE = SimpleStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.danilomarshall.SimpleStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleStore.app/SimpleStore";
+			};
+			name = Debug;
+		};
+		768566F21E41680C0036B39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8580E0D5A78C58F81809B9C6 /* Pods-SimpleStoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2YVM85P4VJ;
+				INFOPLIST_FILE = SimpleStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.danilomarshall.SimpleStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleStore.app/SimpleStore";
+			};
+			name = Release;
+		};
+		768566F41E41680C0036B39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 370BF10458C7A25BA765EA1D /* Pods-SimpleStoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2YVM85P4VJ;
+				INFOPLIST_FILE = SimpleStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.danilomarshall.SimpleStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimpleStore;
+			};
+			name = Debug;
+		};
+		768566F51E41680C0036B39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E123DA75A802FA2474C21A5A /* Pods-SimpleStoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2YVM85P4VJ;
+				INFOPLIST_FILE = SimpleStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.danilomarshall.SimpleStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimpleStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768566C01E41680C0036B39F /* Build configuration list for PBXProject "SimpleStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768566EB1E41680C0036B39F /* Debug */,
+				768566EC1E41680C0036B39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768566ED1E41680C0036B39F /* Build configuration list for PBXNativeTarget "SimpleStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768566EE1E41680C0036B39F /* Debug */,
+				768566EF1E41680C0036B39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		768566F01E41680C0036B39F /* Build configuration list for PBXNativeTarget "SimpleStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768566F11E41680C0036B39F /* Debug */,
+				768566F21E41680C0036B39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		768566F31E41680C0036B39F /* Build configuration list for PBXNativeTarget "SimpleStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768566F41E41680C0036B39F /* Debug */,
+				768566F51E41680C0036B39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768566BD1E41680C0036B39F /* Project object */;
+}
